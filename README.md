@@ -23,7 +23,7 @@ console.log(baseLog(5, 25)); // 2
 console.log(baseLog(7, 49)); // 2
 console.log(baseLog(2, 8)); // 3
 console.log(baseLog(4, 64)); // 3
-cosnole.log(baseLog(2, 16)); // 4
+console.log(baseLog(2, 16)); // 4
 ```
 
 # Test
