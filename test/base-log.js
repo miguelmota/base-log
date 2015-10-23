@@ -6,13 +6,13 @@ test('baseLog', function (t) {
 
   t.plan(16);
 
-  t.equal(baseLog(), null);
-  t.equal(baseLog(2), null);
-  t.equal(baseLog(null, 2), null);
-  t.equal(baseLog({}), null);
-  t.equal(baseLog([]), null);
-  t.equal(baseLog(NaN, NaN), null);
-  t.notEqual(baseLog(1, 1), NaN); // equal
+  t.notEqual(baseLog(), NaN);
+  t.notEqual(baseLog(2), NaN);
+  t.notEqual(baseLog(null, 2), NaN);
+  t.notEqual(baseLog({}), NaN);
+  t.notEqual(baseLog([]), NaN);
+  t.notEqual(baseLog(NaN, NaN), NaN);
+  t.notEqual(baseLog(1, 1), NaN);
   t.equal(baseLog(2, 2), 1);
   t.equal(baseLog(3, 27), 3);
   t.equal(baseLog(2, 4), 2);

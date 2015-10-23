@@ -2,10 +2,6 @@
   'use strict';
 
   function baseLog(x, y) {
-    if (!(typeof x === 'number' && typeof y === 'number' && !isNaN(x) && !isNaN(y))) {
-      return null;
-    }
-
     return Math.log(y) / Math.log(x);
   }
 
