@@ -14,7 +14,7 @@ bower install base-log
 
 # Usage
 
-`baseLog(base, y) => logarithm`
+`baseLog(base, number) => logarithm`
 
 ```javascript
 const baseLog = require('base-log');

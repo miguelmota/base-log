@@ -1,7 +1,7 @@
 {
   "name": "base-log",
   "version": "0.0.1",
-  "description": "Returns the logarithm of a number (y) with specified base (x).",
+  "description": "Returns the logarithm of a number with specified base.",
   "main": "base-log.js",
   "directories": {
     "test": "test"
