@@ -1,6 +1,6 @@
 {
   "name": "base-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Returns the logarithm of a number with specified base.",
   "main": "base-log.js",
   "directories": {
