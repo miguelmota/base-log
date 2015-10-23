@@ -1,0 +1,24 @@
+{
+  "name": "base-log",
+  "main": "base-log.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/base-log",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Returns the logarithm of a number (y) with specified base (x).",
+  "keywords": [
+    "log",
+    "logarithm",
+    "base",
+    "math"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
