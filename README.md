@@ -1,6 +1,6 @@
 # base-log
 
-> Returns the logarithm of a number (y) with specified base (x). (ie. log<sub>x</sub>Y).
+> Returns the logarithm of a number (y) with specified base (x). log<sub>x</sub>Y
 
 # Install
 
